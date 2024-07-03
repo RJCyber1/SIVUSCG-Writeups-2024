@@ -7,6 +7,7 @@ What came first? The ding...or the flag?
 https://uscybercombine-s4-web-ding-o-tron.chals.io/
 
 **Solution**
+
 When this challenge was live for the SIV USCG Open, I fell into a few rabbit holes.
 
 I thought of first reaching 9000 dings (I sure was optimistic lol). In order to automate this, I took advantage of the `window.ding()` function and looped it like so:
