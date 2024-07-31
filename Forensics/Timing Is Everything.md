@@ -22,7 +22,7 @@ These numbers were the flag in decimal!
 
 Deciding to automate this in Bash (my personal favorite programming language), producing this oneliner:
 ```bash
-for i in $(tshark -r timing.pcap -T fields -e frame.time_delta | cut -d "." -f 2 |awk '{ sub(/000000$/, "", $0); print }');do printf "\\$(printf '%03o' "$i")";done
+for i in $(tshark -r timingiseverything.pcap -T fields -e frame.time_delta | cut -d "." -f 2 |awk '{ sub(/000000$/, "", $0); print }');do printf "\\$(printf '%03o' "$i")";done
 ```
 Don't you just love oneliners?
 
