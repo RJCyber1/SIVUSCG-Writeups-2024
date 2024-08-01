@@ -8,6 +8,7 @@ Ready for a blast from the past? Navigate the MIPS landscape and watch out for t
 Author: LMS
 
 **Writeup**
+
 I did not end up solving this challenge due to lack of experience with pwn challenges. However, I did learn quite a bit from this challenge, especially about MIPS and QEMU. 
 
 First things first, the challenge mentions two key terms that are crucial to this challenge: `format strings` and `MIPS`. The challenge provides a MIPS binary (`chall`) running on a remote server (with the `qemu-mips` binary). 
