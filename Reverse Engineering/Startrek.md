@@ -6,7 +6,7 @@ The challenge supplies us with a binary, where our purpose is to get both starsh
 
 Here is the decompiled main function of the binary in `Pseudo C` in Binary Ninja:
 
-```assembly
+```c
 000013a1  int32_t main(int32_t argc, char** argv, char** envp)
 
 000013a1  {
