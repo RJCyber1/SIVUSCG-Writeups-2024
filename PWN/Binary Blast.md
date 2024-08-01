@@ -18,6 +18,7 @@ First things first, the challenge mentions two key terms that are crucial to thi
 *QEMU*: QEMU (Quick Emulator) is a free and open-source emulator that can perform hardware virtualization. It is often used to emulate different CPU architectures, including MIPS.
 
 Upon some research I found this repository with a MIPS exploit involving shellcode injection: https://github.com/w0lfzhang/mips_exploit/tree/master
+
 I read through the PDFs, but I was unable to employ the proof of concept to this challenge.
 
 After research and decompiling the `chall` binary, I believe that the exploit involves leaking memory using the format string vulnerability, injecting shellcode, and executing it to get the shell.
